@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &255261127816322598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 255261127816322597}
+  - component: {fileID: 255261127816322596}
+  m_Layer: 0
+  m_Name: Audio_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &255261127816322597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255261127816322598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &255261127816322596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255261127816322598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d396e3040c67748b5f6265bef7349b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audios:
+  - _clipName: background_music
+    _clip: {fileID: 8300000, guid: 8c833f1ef6e35c94d8bb267ccc58edb3, type: 3}
+    _volume: 0.1
+    _pitch: 1
+    _doLoop: 1
+    _mute: 0
+    _source: {fileID: 0}
+  - _clipName: button_sound
+    _clip: {fileID: 8300000, guid: f3755c10af5ce7e4bab4feeb630f964a, type: 3}
+    _volume: 0.5
+    _pitch: 1
+    _doLoop: 0
+    _mute: 0
+    _source: {fileID: 0}
+  - _clipName: countdown
+    _clip: {fileID: 8300000, guid: 8507ecb4ae7904b4db01f6484760bb22, type: 3}
+    _volume: 3
+    _pitch: 0.8
+    _doLoop: 0
+    _mute: 0
+    _source: {fileID: 0}
+  - _clipName: game_over
+    _clip: {fileID: 8300000, guid: 65d25b09b04cb944781c50e19ba4343a, type: 3}
+    _volume: 3
+    _pitch: 1
+    _doLoop: 0
+    _mute: 0
+    _source: {fileID: 0}
+  - _clipName: health_decrement
+    _clip: {fileID: 8300000, guid: 3afbf96911c358246a6ec00bb7e12cd1, type: 3}
+    _volume: 0.5
+    _pitch: 1
+    _doLoop: 0
+    _mute: 0
+    _source: {fileID: 0}
+  - _clipName: score_increment
+    _clip: {fileID: 8300000, guid: 18b5fc93b3e11624f8ea5d3150c2688d, type: 3}
+    _volume: 0.5
+    _pitch: 1
+    _doLoop: 0
+    _mute: 0
+    _source: {fileID: 0}
+  - _clipName: button_click
+    _clip: {fileID: 8300000, guid: 4a927ef4cf84c134c9d31f0b544e7c76, type: 3}
+    _volume: 0.5
+    _pitch: 2
+    _doLoop: 0
+    _mute: 0
+    _source: {fileID: 0}
